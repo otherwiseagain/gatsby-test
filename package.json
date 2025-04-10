@@ -16,7 +16,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "heroku-postbuild": "gatsby build"
   },
   "dependencies": {
     "gatsby": "^5.14.1",
